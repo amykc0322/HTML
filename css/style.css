@@ -2,7 +2,7 @@
     font-family: 'Be Vietnam', sans-serif;
 }
 h1 {
-    color: darkkhaki;
+    color: blue i;
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
 }
@@ -42,11 +42,41 @@ p {
 }
 
 header {
-    background-color: aqua;
+    background-color: wheat;
+    height: 110px;
+    display: flex; 
+    justify-content:space-between;
+}
+
+main {
+    height: 530px;
+    background-color: #05a72c;
 }
 
 div {
-    border: 1px red solid;
+    border: 1px blue;
+}
+
+footer {
+    height: 850pt;
+    background-color: #05a72c;
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+
+li {
+    display: inline;
+    padding: 40px;
+
+}
+
+li a {
+    display: inline-block;
+    padding: 4px 8px;
 }
 
 .headtest {
@@ -54,15 +84,27 @@ div {
 }
 
 .icon-red {
-    color: red;
+    color: blue;
+}
+
+.bkcolorgray {
+    background-color: #F7F7F7;
+}
+
+.bkSizeLarge {
+    height:750pt;
 }
 
 .imgRounded {
     border-radius: 50%;
     background-image: url ("Images/annie-spratt-6L_Jg8RMjmo-unsplash.jpg" height="200" class="imgRounded"); 
+    background-position: center;
+    border: 0;
     /* margin-left: auto;
     margin-right: auto;
     width: 30%; */
+    display: block; 
+    margin: 0 auto;
 
 }
 
@@ -78,22 +120,26 @@ a {
 }
 
 .row {
+    display: flex;
 
 }
 
 .col {
-    float: left;
-    padding: 15px;
-    border: 1px solid green:
+    /*float: left; */
+    /* padding: 15px; */
+    /* border: 1px solid green: */
     /* width: 30%; */
 }
 
 .col-1 {width: 8.33%;}
 /* .col-2 {width: 16.66%;} */
-.col-2 {width: 14%;}
+.col-2 {width: calc(100%/6);}
 .col-3 {width: 25%;}
 /* .col-4 {width: 33.33%;} */
-.col-4 {width:30%;}
+.col-4 {
+    width: calc(100%/3);
+    padding: 0;
+}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
 .col-7 {width: 58.33%;}
