@@ -30,6 +30,8 @@ h5 {
 
 h6 {
     color: blue;
+    font-size: 1.5em;
+    margin: 20px 0;
 }
 
 p {
@@ -148,3 +150,158 @@ a {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
+
+
+h6 {
+    p {
+        color: aqua;
+        font-size: 1em;
+        line-height: 0.5em;
+        line-height: 2em;
+    }
+    
+    header {
+        background-color: antiquewhite;
+        height: 110pt;
+        display: flex;
+        background-color: white;
+        /* height: 110pt; */
+        justify-content: space-between;
+    }
+    
+    main {
+        height: 530pt;
+        /* height: 530pt; */
+        padding: 24px;
+        justify-content: space-around;
+        background-color: #05A72C;
+        /* background-color: rgba(5, 167, 44, 0.4); */
+    }
+   div {
+    }
+    
+    footer {
+        height: 850pt;
+        background-color: #05A72C;
+        /* height: 850pt; */
+        background-color: #EEE;
+    }
+    .txtCenter {
+        text-align: center;
+    }
+    .txtJustify {
+        text-align: justify;
+    }
+    
+    ul {
+        background-color: #F7F7F7;
+    }
+    .bkSizeLarge {
+        height: 750pt;
+        /* height: 750pt; */
+        padding: 24px;
+    }
+    
+    .imgRounded {
+         width: 30%; */  
+    }
+    
+    .logoEvernote {
+        background-image: url("../images/evernote_logo.png"); 
+        width: 200px;
+        height: 100px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    button {
+        padding: 16px;
+        text-transform: uppercase;
+    }
+    
+    .button-outline {
+        display: inline-block;
+        height: 40px;
+        border-radius: 3px;
+        text-decoration: none;
+        text-align: center;
+        border: 2px solid green;
+        padding: 0 10;
+        line-height: 40px;
+        min-width:120px;
+    }
+
+    
+    
+    a {
+        padding: 10px 50px;
+        /* padding-top: 50px: */
+        /* padding: 10px 50px;
+        padding-top: 50px:
+        margin: 30px;
+        border: 30px;
+        border: 30px; */
+    }
+    
+    a:link {
+        text-decoration: none;
+        color: black;
+    }
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+    a:hover {
+        color: aquamarine;
+        text-decoration: underline;
+    }
+    a:active {
+        color: yellow;
+    }
+    
+    
+    .flex {
+        display: flex;
+    }
+    
+    .row {
+        display: flex;
+    }
+   
+    
+    .col {
+        /* float: left; */
+        /* padding: 15px; */
+        padding: 16px 48px;
+        /* border: 1px solid green; */
+        /* width:30%; */
+    
+   
+    .col-2 {width: calc(100%/6);}
+    .col-3 {width: 25%;}
+    /* .col-4 {width: 33.33%;} */
+    .col-4 {
+        width: calc(100%/3);
+        padding: 0;
+    }
+    .col-4 { width: calc(100%/3);}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+
+    .alignCenter { 
+        align-items: center;
+    }
+ @media only screen and (min-width: 600px) {
+     h1 {
+         color: powderblue;
+     }
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        color: tomato;
+    }
+
+}
